@@ -4,7 +4,7 @@
 #
 Name     : pypi-pytest_localserver
 Version  : 0.5.1.post0
-Release  : 25
+Release  : 26
 URL      : https://files.pythonhosted.org/packages/c3/c8/bd84dba7f73dfd9ff9eff2bbd9037707001ab97c14e78c3af9384c15aa74/pytest-localserver-0.5.1.post0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/c3/c8/bd84dba7f73dfd9ff9eff2bbd9037707001ab97c14e78c3af9384c15aa74/pytest-localserver-0.5.1.post0.tar.gz
 Summary  : py.test plugin to test server connections locally.
@@ -13,18 +13,14 @@ License  : MIT
 Requires: pypi-pytest_localserver-license = %{version}-%{release}
 Requires: pypi-pytest_localserver-python = %{version}-%{release}
 Requires: pypi-pytest_localserver-python3 = %{version}-%{release}
-Requires: Werkzeug
-BuildRequires : Werkzeug
+Requires: pypi(werkzeug)
 BuildRequires : buildreq-distutils3
-Provides: pytest-localserver
-Provides: pytest-localserver-python
-Provides: pytest-localserver-python3
 BuildRequires : pypi(pluggy)
-BuildRequires : py-python
-BuildRequires : pypi(werkzeug)
-BuildRequires : pytest
-BuildRequires : tox
+BuildRequires : pypi(py)
+BuildRequires : pypi(pytest)
+BuildRequires : pypi(tox)
 BuildRequires : pypi(virtualenv)
+BuildRequires : pypi(werkzeug)
 
 %description
 ==================
@@ -70,7 +66,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641480685
+export SOURCE_DATE_EPOCH=1641654372
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "

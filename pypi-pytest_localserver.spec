@@ -4,7 +4,7 @@
 #
 Name     : pypi-pytest_localserver
 Version  : 0.6.0
-Release  : 28
+Release  : 29
 URL      : https://files.pythonhosted.org/packages/fe/51/e13cfcf43b512eddbd96658ef6bff6f1a5911c2f3882aaf64998a8e10ac8/pytest-localserver-0.6.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/fe/51/e13cfcf43b512eddbd96658ef6bff6f1a5911c2f3882aaf64998a8e10ac8/pytest-localserver-0.6.0.tar.gz
 Summary  : py.test plugin to test server connections locally.
@@ -74,7 +74,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1656381255
+export SOURCE_DATE_EPOCH=1656400976
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "

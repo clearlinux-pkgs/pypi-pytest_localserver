@@ -1,5 +1,5 @@
 PKG_NAME := pypi-pytest_localserver
-URL = https://files.pythonhosted.org/packages/81/56/dcfbefe0b7a1f4c8e4f3744cf26207eb5dee0be1920f17641794fa655f26/pytest-localserver-0.7.0.tar.gz
+URL = https://files.pythonhosted.org/packages/4c/5b/4db3f9c393e724c694f45f05e6bc02433358fe4b691ae1c195de0a8faf15/pytest-localserver-0.7.1.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common

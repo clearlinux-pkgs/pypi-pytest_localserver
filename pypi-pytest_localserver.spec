@@ -7,7 +7,7 @@
 #
 Name     : pypi-pytest_localserver
 Version  : 0.9.0.post0
-Release  : 44
+Release  : 45
 URL      : https://files.pythonhosted.org/packages/ec/33/e77476a3dee691845a052d6a3b75c715c803566fdf744b43080f92c1107a/pytest_localserver-0.9.0.post0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/ec/33/e77476a3dee691845a052d6a3b75c715c803566fdf744b43080f92c1107a/pytest_localserver-0.9.0.post0.tar.gz
 Summary  : pytest plugin to test server connections locally.
